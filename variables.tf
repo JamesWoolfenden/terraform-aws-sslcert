@@ -7,7 +7,7 @@ variable "sub_domain" {
 
 variable "domain" {
   type        = string
-  description = "The domain name of the zones"
+  description = "The domain name of the zone"
 }
 
 variable "common_tags" {
