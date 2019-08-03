@@ -2,7 +2,7 @@
 
 variable "sub_domain" {
   type        = string
-  description = "The subdomain"
+  description = "The sub-domain"
 }
 
 variable "domain" {
@@ -11,7 +11,6 @@ variable "domain" {
 }
 
 variable "common_tags" {
-  description = "Implements thge common tags scheme"
+  description = "Implements the common tags scheme"
   type        = map
-
 }

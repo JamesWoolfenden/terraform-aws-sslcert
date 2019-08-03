@@ -27,9 +27,16 @@ module "cert" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| common\_tags | Implements thge common tags scheme | map | n/a | yes |
+| common\_tags | Implements the common tags scheme | map | n/a | yes |
 | domain | The domain name of the zones | string | n/a | yes |
-| sub\_domain | The subdomain | string | n/a | yes |
+| sub\_domain | The sub-domain | string | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| arn | The arn of the cert |
+| domain\_name | The domain name |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Information
