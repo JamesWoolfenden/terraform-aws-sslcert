@@ -2,7 +2,7 @@
 
 # terraform-aws-sslcert [![Build Status](https://api.travis-ci.com/JamesWoolfenden/terraform-aws-sslcert.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-sslcert) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-sslcert.svg)](https://github.com/JamesWoolfenden/terraform-aws-sslcert/releases/latest)
 
-Terraform module to provision an SSL certifcates.
+Terraform module to provision an SSL certifcate.
 ---
 It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
