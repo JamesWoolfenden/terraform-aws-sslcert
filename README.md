@@ -27,9 +27,9 @@ module "cert" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| common\_tags | Implements the common tags scheme | map | n/a | yes |
-| domain | The domain name of the zones | string | n/a | yes |
-| sub\_domain | The sub-domain | string | n/a | yes |
+| common\_tags | Implements the common tags scheme | map | n/a | yes |
+| domain | The domain name of the zones | string | n/a | yes |
+| sub\_domain | The sub-domain | string | n/a | yes |
 
 ## Outputs
 
