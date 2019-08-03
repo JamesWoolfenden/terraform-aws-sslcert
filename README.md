@@ -3,6 +3,9 @@
 # terraform-aws-sslcert [![Build Status](https://api.travis-ci.com/JamesWoolfenden/terraform-aws-sslcert.svg?branch=master)](https://travis-ci.com/JamesWoolfenden/terraform-aws-sslcert) [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-sslcert.svg)](https://github.com/JamesWoolfenden/terraform-aws-sslcert/releases/latest)
 
 Terraform module to provision an SSL certifcate.
+
+This follows the terraform example <https://www.terraform.io/docs/providers/aws/r/acm_certificate_validation.html>
+
 ---
 It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
@@ -57,10 +60,6 @@ File a GitHub [issue](https://github.com/jameswoolfenden/terraform-aws-sslcert/i
 ### Bug Reports & Feature Requests
 
 Please use the [issue tracker](https://github.com/jameswoolfenden/terraform-aws-sslcert/issues) to report any bugs or file feature requests.
-
-## Copyrights
-
-Copyright � 2019-2019 [Slalom, LLC](https://slalom.com)
 
 ## License
 
