@@ -14,3 +14,9 @@ variable "common_tags" {
   description = "Implements the common tags scheme"
   type        = map
 }
+
+variable "ttl" {
+  description = "Time to Live"
+  type        = number
+  default     = 60
+}
