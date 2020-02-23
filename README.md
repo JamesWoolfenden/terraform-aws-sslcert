@@ -7,7 +7,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
-Terraform module to provision an SSL certifcate.
+Terraform module to provision an SSL certificate.
 
 This follows the terraform example <https://www.terraform.io/docs/providers/aws/r/acm_certificate_validation.html>
 
@@ -28,7 +28,8 @@ module "cert" {
 }
 ```
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
 ## Providers
 
 | Name | Version |
