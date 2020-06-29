@@ -29,6 +29,9 @@ module "cert" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Requirements
+
+No requirements.
 
 ## Providers
 
@@ -39,7 +42,7 @@ module "cert" {
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | common\_tags | Implements the common tags scheme | `map` | n/a | yes |
 | domain | The domain name of the zone | `string` | n/a | yes |
 | sub\_domain | The sub-domain | `string` | n/a | yes |
@@ -112,8 +115,8 @@ under the License.
 [logo]: https://gist.githubusercontent.com/JamesWoolfenden/5c457434351e9fe732ca22b78fdd7d5e/raw/15933294ae2b00f5dba6557d2be88f4b4da21201/slalom-logo.png
 [website]: https://slalom.com
 [github]: https://github.com/jameswoolfenden
-[linkedin]: https://www.linkedin.com/company/slalom-consulting/
-[twitter]: https://twitter.com/Slalom
+[linkedin]: https://www.linkedin.com/in/jameswoolfenden/
+[twitter]: https://twitter.com/JimWoolfenden
 
 [share_twitter]: https://twitter.com/intent/tweet/?text=terraform-aws-sslcert&url=https://github.com/jameswoolfenden/terraform-aws-sslcert
 [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-sslcert&url=https://github.com/jameswoolfenden/terraform-aws-sslcert
