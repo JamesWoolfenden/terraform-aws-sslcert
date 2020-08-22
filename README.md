@@ -5,7 +5,7 @@
 [![Build Status](https://api.github.com/JamesWoolfenden/terraform-aws-sslcert/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-sslcert)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-sslcert.svg)](https://github.com/JamesWoolfenden/terraform-aws-sslcert/releases/latest)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![pre-commit](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
+[![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Terraform module to provision an SSL certificate.
 
@@ -16,12 +16,16 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Usage
 
-Include this repository as a module in your existing terraform code:
+This is a very basic example (so far).
+
+![ssl cert](./diagram/ssl_cert.png)
+
+Include this repository as a module in your existing Terraform code:
 
 ```hcl
 module "cert" {
   source      = "JamesWoolfenden/sslcert/aws"
-  version     = "0.2.11"
+  version     = "v0.2.11"
   common_tags = var.common_tags
   domain      = "example.com"
   sub_domain  = "dev"
