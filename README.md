@@ -2,7 +2,7 @@
 
 # terraform-aws-sslcert
 
-[![Build Status](https://api.github.com/JamesWoolfenden/terraform-aws-sslcert/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-sslcert)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-aws-sslcert/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-aws-sslcert)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-aws-sslcert.svg)](https://github.com/JamesWoolfenden/terraform-aws-sslcert/releases/latest)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
