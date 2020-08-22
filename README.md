@@ -20,7 +20,7 @@ This is a very basic example (so far).
 
 ![ssl cert](./diagram/ssl_cert.png)
 
-Include this repository as a module in your existing Terraform code:
+Include this repository as a module in your existing Terraform code, as *module.cert.tf*:
 
 ```hcl
 module "cert" {
