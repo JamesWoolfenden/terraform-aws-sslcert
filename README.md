@@ -32,7 +32,6 @@ module "cert" {
 ```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
 ## Requirements
 
 No requirements.
@@ -40,25 +39,25 @@ No requirements.
 ## Providers
 
 | Name | Version |
-| ---- | ------- |
-| aws  | n/a     |
+|------|---------|
+| aws | n/a |
 
 ## Inputs
 
-| Name        | Description                       | Type     | Default | Required |
-| ----------- | --------------------------------- | -------- | ------- | :------: |
-| common_tags | Implements the common tags scheme | `map`    | n/a     |   yes    |
-| domain      | The domain name of the zone       | `string` | n/a     |   yes    |
-| sub_domain  | The sub-domain                    | `string` | n/a     |   yes    |
-| ttl         | Time to Live                      | `number` | `60`    |    no    |
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| common\_tags | Implements the common tags scheme | `map` | n/a | yes |
+| domain | The domain name of the zone | `string` | n/a | yes |
+| sub\_domain | The sub-domain | `string` | n/a | yes |
+| ttl | Time to Live | `number` | `60` | no |
 
 ## Outputs
 
-| Name                      | Description               |
-| ------------------------- | ------------------------- |
-| arn                       | The arn of the cert       |
-| domain_name               | The domain name           |
-| domain_validation_options | domain_validation_options |
+| Name | Description |
+|------|-------------|
+| arn | The arn of the cert |
+| domain\_name | The domain name |
+| domain\_validation\_options | domain\_validation\_options |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
