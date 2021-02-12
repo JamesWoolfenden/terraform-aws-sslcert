@@ -50,7 +50,7 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| common\_tags | Implements the common tags scheme | `map` | n/a | yes |
+| common\_tags | Implements the common tags scheme | `map(any)` | n/a | yes |
 | domain | The domain name of the zone | `string` | n/a | yes |
 | sub\_domain | The sub-domain | `string` | n/a | yes |
 | ttl | Time to Live | `number` | `60` | no |

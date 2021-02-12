@@ -7,7 +7,7 @@ module "cert" {
 
 variable "common_tags" {
   description = "Implements thge common tags scheme"
-  type        = map
+  type        = map(any)
   default = {
     application = "terraform"
     module      = "cert"
