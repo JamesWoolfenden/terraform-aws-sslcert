@@ -5,6 +5,4 @@ resource "aws_acm_certificate" "certificate" {
   lifecycle {
     create_before_destroy = true
   }
-
-  tags = var.common_tags
 }

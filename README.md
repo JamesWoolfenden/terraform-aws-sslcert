@@ -63,7 +63,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | Implements the common tags scheme | `map(any)` | n/a | yes |
 | <a name="input_domain"></a> [domain](#input\_domain) | The domain name of the zone | `string` | n/a | yes |
 | <a name="input_sub_domain"></a> [sub\_domain](#input\_sub\_domain) | The sub-domain | `string` | n/a | yes |
 | <a name="input_ttl"></a> [ttl](#input\_ttl) | Time to Live | `number` | `60` | no |
