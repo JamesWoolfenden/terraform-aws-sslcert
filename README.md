@@ -101,7 +101,9 @@ resource "aws_iam_policy" "terraform_pike" {
                 "acm:ListTagsForCertificate",
                 "acm:RequestCertificate"
             ],
-            "Resource": "*"
+            "Resource": [
+                "*"
+            ]
         },
         {
             "Sid": "VisualEditor1",
@@ -114,7 +116,9 @@ resource "aws_iam_policy" "terraform_pike" {
                 "route53:ListResourceRecordSets",
                 "route53:ListTagsForResource"
             ],
-            "Resource": "*"
+            "Resource": [
+                "*"
+            ]
         }
     ]
 })
