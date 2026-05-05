@@ -98,6 +98,7 @@ resource "aws_iam_policy" "terraform_pike" {
             "Action": [
                 "acm:DeleteCertificate",
                 "acm:DescribeCertificate",
+                "acm:GetCertificate",
                 "acm:ListTagsForCertificate",
                 "acm:RequestCertificate"
             ],
